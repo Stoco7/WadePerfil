@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+:root{
+  --fontPrincipal: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(128,0,39,1) 50%, rgba(0,0,0,1) 85%);
+}
+
+main {
+  margin: 15px;
+  font-family: var(--fontPrincipal);
+}
+
+.BotaoMenu {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(249, 160, 27);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(249, 160, 27);
+  font-size: 15px;
+  background-color: black;
+}
+
+.BotaoMenu:hover {
+  background-color: rgb(249, 160, 27);
+  color: black;
+}
+
+.MenuSuspenso {
+  position: absolute;
+  display: inline-block;
+}
+
+.ConteudoSuspenso {
+  display: none;
+  background-color: rgb(249, 160, 27);
+  min-width: 200px;
+  border-radius: 5px;
+}
+
+.ConteudoSuspenso a {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MenuSuspenso:hover .ConteudoSuspenso {
+  display: block;
+}
+
+.TituloPrincipal {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  background-color: rgb(249, 160, 27);
+  margin: 0 auto;
+  width: fit-content;
+  height: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(255, 153, 0) 0%, rgb(255, 235, 133) 45%, rgb(255, 153, 0) 100%);
+  margin-bottom: 10px;
+}
+
+.ImgPrincipal {
+  width: 800px;
+  height: 450px;
+  display: flex;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(249, 160, 27);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  width: fit-content;
+  height: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.TextoPrincipal {
+  margin: 20px;
+}
+p {
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 15px;
+  width: 850px;
+  border: 2px solid rgb(249, 160, 27);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.Hobbies{
+  margin-bottom: 20px;
+}
+li {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px;
+  width: auto;
+  border: 2px solid rgb(249, 160, 27);
+  border-radius: 5px;
+  width: fit-content;
+  margin-bottom: 3px;
+}
+
