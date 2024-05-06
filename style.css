@@ -16,7 +16,6 @@ main {
 }
 
 .BotaoMenu {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(249, 160, 27);
   cursor: pointer;
   padding: 10px;
